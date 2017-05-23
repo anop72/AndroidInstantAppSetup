@@ -1,1 +1,1 @@
-include ':app-base', ':appapk'
+include ':app-base', ':app'

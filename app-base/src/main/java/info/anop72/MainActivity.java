@@ -1,4 +1,4 @@
-package info.anop72.app;
+package info.anop72;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;

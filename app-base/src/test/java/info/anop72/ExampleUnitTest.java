@@ -1,4 +1,4 @@
-package info.anop72.app;
+package info.anop72;
 
 import org.junit.Test;
 
