@@ -7,7 +7,7 @@ android {
 
 
     defaultConfig {
-        applicationId "info.anop72.app.appapk"
+        applicationId "info.anop72.app"
         minSdkVersion 19
         targetSdkVersion 25
         versionCode 1
@@ -28,11 +28,4 @@ dependencies {
 
     implementation project(':app-base')
 
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
-
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    testCompile 'junit:junit:4.12'
 }
