@@ -18,17 +18,22 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <intent-filter>
+            <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data
-                    android:scheme="http"
-                    android:host="www.anop72.info"
-                    android:pathPattern="/artists" />
+                <data android:host="www.anop72.info" />
+                <data android:pathPrefix="/2016" />
+                <data android:scheme="http" />
+
             </intent-filter>
+
+            <meta-data
+                android:name="default-url"
+                android:value="http://anop72.info" />
+
         </activity>
     </application>
 
